@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css"/>
+    <link rel="stylesheet" href="./style/fontawesome.min.css"/>
+    <title>To Do List</title>
+</head>
+<body>
+    <main>
+        <form class="task">
+            <label for="work">Insert Your task</label>
+            <input type="text" name="work" class="insert"/>
+            <button type="submit">+</button>
+            <div><i class="fas fa-book"></i></div>
+        </form>
+        <div><button id="clear" type="button">Clear</button></div>
+        <div class="title">
+            <h3>To Do List</h3>
+            <hr/>
+        </div>
+        <div class="warning">Kindly insert work to do</div>
+        <i class="fas fa-pen"></i>
+        <i class="fas fa-trash"></i>
+        <div id="list"></div>
+    </main>
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>
