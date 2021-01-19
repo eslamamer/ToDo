@@ -6,6 +6,10 @@ body{
     background: linear-gradient(120deg, #ff9, #fee, #aff);
     min-height: 100vh;
 }
+main{
+    width: 31rem;
+    margin: auto;
+}
 .task{
     width:30rem;
     margin: 2rem  auto;
@@ -32,7 +36,6 @@ body{
 .title{
     width: 32rem;
     position: relative;
-    left: 25rem;
     top: 8rem;
     z-index: -1;
 }
@@ -43,7 +46,6 @@ body{
     position: relative;
     width:10rem;
     top:9rem;
-    margin-left: 25rem;
     background:red;
     padding: 10px;
     color:#fff;
@@ -72,13 +74,12 @@ body{
 }
 #clear{
     position: relative;
-    width:6rem;
-    top:9rem;
-    left: 50rem;
-    background:red;
+    width: 6rem;
+    top: 9rem;
+    left: 26rem;
+    background: red;
     padding: 10px;
-    color:#fff;
-    border-radius: 15px; 
-    
+    color: #fff;
+    border-radius: 15px;
 
 }
